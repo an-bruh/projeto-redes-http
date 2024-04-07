@@ -6,7 +6,7 @@ import codecs
 #definindo o endereço IP do host
 SERVER_HOST = ""
 #definindo o número da porta em que o servidor irá escutar pelas requisições HTTP
-SERVER_PORT = 8080
+SERVER_PORT = 80
 
 #vamos criar o socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
